@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+  background: #1E201E;
+  color: white;
+}
+
+.headpoint {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(22px);
+  padding: 1.1rem;
+  margin: 1.5rem;
+  border-radius: 0.7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headpoint h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  background: linear-gradient(135deg, #ECDFCC, #697565);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin: 0;
+}
+
+.headpoint .anu {
+  font-size: 0.7rem;
+  font-weight: 400;
+  color: white;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1.5px solid #697565;
+  border-radius: 50px;
+  padding: 0.2rem 0.8rem;
+  margin: 0;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.content {
+  padding: 1rem;
+  margin-top: 0.8rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content .medsos {
+  padding-left: auto;
+  padding-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+}
+
+.content .medsos a {
+  padding: 0.8rem 2rem;
+  background: rgba(255, 255, 255, 0.05);
+  color: white;
+  border: 1px solid #697565;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  cursor: none;
+}
